@@ -1,0 +1,21 @@
+{
+  "lowercase": true,
+  "dimension": "user_id",
+  "vector_size": 100,
+  "window": 3,
+  "min_count": 20,
+  "epochs": 10,
+  "sg": 1,
+  "workers": 12,
+  "min_n": 2,
+  "max_n": 5,
+  "open_TOPN": 15,
+  "open_TH": 0.85,
+  "strict_TOPN": 30,
+  "strict_TH": 0.83,
+  "SNN_MIN": 2,
+  "DEGREE_CAP": 100,
+  "MIN_LEN": 3,
+  "MIN_USERS": 3,
+  "MAX_FREQ_RATIO": 25
+}

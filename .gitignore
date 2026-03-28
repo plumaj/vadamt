@@ -1,0 +1,53 @@
+# Project-specific (trained models, large outputs)
+models/
+results/
+data/
+output/
+checkpoints/
+results/en*
+results/de*
+notes.md
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+._*
+Icon?
+.DS_Store?
+.fseventsd
+
+# Logs & temporary data
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Jupyter / IDEs
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.code-workspace
