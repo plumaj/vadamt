@@ -17,9 +17,7 @@ Both scripts read all parameters (including tokenizer settings, dimension, and t
 
 ---
 
-## Tokenization
-
-Tokenization uses a Unicode-aware regex identical to the original notebook:
+## Tokenisation
 
 ```python
 re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ']+", text.lower())
@@ -33,12 +31,12 @@ re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ']+", text.lower())
 
 ## Configuration
 
-All settings live in **`config/settings.jsonc`**, for example:
+All settings live in **`config/settings.json`**, for example:
 
-```jsonc
+```json
 {
   "lowercase": true,
-  "dimension": "user_id",            // set to "" or null to disable dimension aggregation
+  "dimension": "user_id", 
   "vector_size": 100,
   "window": 5,
   "min_count": 10,
@@ -63,7 +61,7 @@ All settings live in **`config/settings.jsonc`**, for example:
 - **`dimension`** — if set, training aggregates all texts per dimension value (e.g., per user).  
   Analysis then measures overlap between dimension values (user overlap, region overlap, etc.).  
   If left empty, training runs on individual records and overlap is marked “N/A”.  
-- **`lowercase`** — controls whether text is lowercased before tokenization.  
+- **`lowercase`** — controls whether text is lowercased before tokenisation.  
 - The remaining fields control FastText hyperparameters and variant-family thresholds.
 
 ---
