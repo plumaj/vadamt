@@ -164,3 +164,32 @@ If no dimension is configured, overlap is marked “N/A” and set to 1.0.
   • mojeen         freq=63     dimension_members=7    dimension_overlap_mean=0.36
   • ...
 ```
+
+---
+
+## Please Cite our Paper if you use this :)
+
+```bibtex
+@inproceedings{lutgen-etal-2026-subword,
+    title = "A Subword Embedding Approach for Variation Detection in {L}uxembourgish User Comments",
+    author = "Lutgen, Anne-Marie  and
+      Plum, Alistair  and
+      Purschke, Christoph",
+    editor = {Scherrer, Yves  and
+      Aepli, No{\"e}mi  and
+      Blaschke, Verena  and
+      Jauhiainen, Tommi  and
+      Ljube{\v{s}}i{\'c}, Nikola  and
+      Nakov, Preslav  and
+      Tiedemann, J{\"o}rg  and
+      Zampieri, Marcos},
+    booktitle = "Proceedings of the 13th Workshop on {NLP} for Similar Languages, Varieties and Dialects (VarDial)",
+    month = mar,
+    year = "2026",
+    address = "Rabat, Morocco",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.vardial-1.9/",
+    doi = "10.18653/v1/2026.vardial-1.9",
+    pages = "113--122"
+}
+```
